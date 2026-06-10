@@ -75,7 +75,7 @@ Running in BBC BASIC for SDL:
 
 ![lissa_BBC_BASIC.png](lissa_BBC_BASIC.png)
 
-Running in an online emulator for 8 bit MSX BASIC:
+Running in [webmsx](https://webmsx.org/), an online emulator for 8 bit MSX BASIC:
 
 ![lissajou_msx.png](lissajou_msx.png)
 
