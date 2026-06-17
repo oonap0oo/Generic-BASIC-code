@@ -87,6 +87,8 @@ The values of XA% and YA% had to be reduced for MSX to fit the lissajou in the m
 
 This program searches for a root of an equation between a lower limit a and upper limit b. It uses Brent's method which switches between the bisection method, the secant method and inverse quadratic interpolation depending on which method is most appropriate.
 
+It is based on this pseudo code in Wikipedia: [https://en.wikipedia.org/wiki/Brent%27s_method#Algorithm](https://en.wikipedia.org/wiki/Brent%27s_method#Algorithm)
+
 There are no loop statements used such as WHILE or REPEAT UNTIL because the syntax and availability differs between BASIC dialects. (For example PC-BASIC (GW-BASIC) has no REPEAT..UNTIL, it does have WHILE..WEND. However BBC BASIC requires WHILE to be followed by ENDWHILE.)
 Instead this program uses IF stetements combined with GOTO, so proper old school for the sake of compatibility.
 
