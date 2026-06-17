@@ -82,3 +82,20 @@ Running in [webmsx](https://webmsx.org/), an online emulator for 8 bit MSX BASIC
 The values of XA% and YA% had to be reduced for MSX to fit the lissajou in the maximum text dimensions.
 
 ![lissajou_msx_list.png](lissajou_msx_list.png)
+
+## Root finding using Brent's method 
+
+This program searches for a root of an equation between a lower limit a and upper limit b. It uses Brent's method which switches between the bisection method, the secant method and inverse quadratic interpolation depending on which method is most appropriate.
+
+There are no loop statements used such as WHILE or REPEAT UNTIL because the syntax and availability differs between BASIC dialects. (For example PC-BASIC (GW-BASIC) has no REPEAT..UNTIL, it does have WHILE..WEND. However BBC BASIC requires WHILE to be followed by ENDWHILE.)
+Instead this program uses IF stetements combined with GOTO, so proper old school for the sake of compatibility.
+
+The code: [bren.bas](bren.bas)
+
+The program was tested with following BASIC systems:
+* [PC-BASIC an GW BASIC emulator](https://robhagemans.github.io/pcbasic/)
+* [QB46 PE](https://www.qb64phoenix.com/)
+* [BBC BASIC for SDL](https://www.bbcbasic.co.uk/)
+* [WebMSX an online MSXX BASIC emulator](https://webmsx.org/)
+* [Applesoft Basic in Javascript](https://www.calormen.com/jsbasic/)
+* [C64 BASIC emulator](https://stigc.dk/c64/basic/)
