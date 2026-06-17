@@ -93,9 +93,27 @@ Instead this program uses IF stetements combined with GOTO, so proper old school
 The code: [bren.bas](bren.bas)
 
 The program was tested with following BASIC systems:
+
 * [PC-BASIC an GW BASIC emulator](https://robhagemans.github.io/pcbasic/)
+
+![bren_pc_basic.png](bren_pc_basic.png)
+
 * [QB46 PE](https://www.qb64phoenix.com/)
+
+![bren_qb64pe.png](bren_qb64pe.png)
+
 * [BBC BASIC for SDL](https://www.bbcbasic.co.uk/)
+
+![bren_bbc_basic_for_sdl.png](bren_bbc_basic_for_sdl.png)
+
 * [WebMSX an online MSXX BASIC emulator](https://webmsx.org/)
+
+![bren_msx_basic.png](bren_msx_basic.png)
+
 * [Applesoft Basic in Javascript](https://www.calormen.com/jsbasic/)
+
+![bren_applesoft_basic.png](bren_applesoft_basic.png)
+
 * [C64 BASIC emulator](https://stigc.dk/c64/basic/)
+
+![bren_c64_basic.png](bren_c64_basic.png)
