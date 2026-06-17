@@ -90,13 +90,13 @@ This program searches for a root of an equation between a lower limit a and uppe
 It is based on this pseudo code in Wikipedia: [https://en.wikipedia.org/wiki/Brent%27s_method#Algorithm](https://en.wikipedia.org/wiki/Brent%27s_method#Algorithm)
 
 There are no loop statements used such as WHILE or REPEAT UNTIL because the syntax and availability differs between BASIC dialects. (For example PC-BASIC (GW-BASIC) has no REPEAT..UNTIL, it does have WHILE..WEND. However BBC BASIC requires WHILE to be followed by ENDWHILE.)
-Instead this program uses IF stetements combined with GOTO, so proper old school for the sake of compatibility.
+Instead this program uses IF statements combined with GOTO, so proper old school for the sake of compatibility.
 
 The code: [bren.bas](bren.bas)
 
 The program was tested with following BASIC systems:
 
-* [PC-BASIC an GW BASIC emulator](https://robhagemans.github.io/pcbasic/)
+* [PC-BASIC a GW-BASIC emulator](https://robhagemans.github.io/pcbasic/)
 
 ![bren_pc_basic.png](bren_pc_basic.png)
 
@@ -108,7 +108,7 @@ The program was tested with following BASIC systems:
 
 ![bren_bbc_basic_for_sdl.png](bren_bbc_basic_for_sdl.png)
 
-* [WebMSX an online MSXX BASIC emulator](https://webmsx.org/)
+* [WebMSX an online MSX BASIC emulator](https://webmsx.org/)
 
 ![bren_msx_basic.png](bren_msx_basic.png)
 
